@@ -8,7 +8,7 @@ Laird Connectivity’s smartBASIC is an event-driven programming language that w
 
 ## Syntax Highlighting
 
-Laird provides syntax highlighting files for Notepad++ (Windows) and Textpad (Mac OSX) along with their regular module firmware versiosn releases. This VS Code language extension is based on the latest Notepad++ syntax files for BL652, BL653 and BL654 (as of today... ping me in case there is a new firmware version, I might have missed). Other than the original syntax files from Laird, which cover only the language scope of each module's SmartBASIC implementation, this language extension is a superset of these scopes.
+Laird provides syntax highlighting files for Notepad++ (Windows) and Textpad (Mac OSX) along with their regular module firmware versiosn releases. This VS Code language extension is based on the latest Notepad++ syntax files for BL652, BL653 and BL654. Other than the original syntax files from Laird, which cover only the language scope of each module's SmartBASIC implementation, this language extension is a superset of these scopes.
 
 The drawback of this implementation is, that when working on e.g. a BL652 module, VS Code would also highlight SmartBASIC functions, which are only available on the higher-end BL653 or BL654 modules. The advantage is, that you only need one syntax file and no need to switch syntax files when working with different modules in parallel.
 
