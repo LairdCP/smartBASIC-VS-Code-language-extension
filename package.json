@@ -1,0 +1,25 @@
+{
+    "name": "smartbasic",
+    "displayName": "smartBASIC",
+    "description": "Laird smartBASIC Language",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "smartbasic",
+            "aliases": ["Laird smartBASIC Language", "smartbasic"],
+            "extensions": [".sb", ".sblib"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "smartbasic",
+            "scopeName": "source.smartbasic",
+            "path": "./syntaxes/smartbasic.tmLanguage.json"
+        }]
+    }
+}
