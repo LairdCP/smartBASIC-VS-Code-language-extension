@@ -122,8 +122,8 @@
 		"operators": {
 			"patterns": [
 				{
-					"match": "\\b(integer.(h|o|b|d)'|float.(f|e)')\\b",
-					"name": "keyword.operator.intfloat.smartbasic"
+					"match": "(?i)(integer.(h|o|b|d)'|float.(f|e)')",
+					"name": "entity.name.function.intfloat.smartbasic"
 				},
 				{
 					"match": "<<|>>|&|\\^|\\|",
