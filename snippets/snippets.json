@@ -1,0 +1,170 @@
+{
+    "New File": {
+        "prefix": "newFile",
+        "body": [
+            "//*****************************************************************************",
+            "// Definitions",
+            "//*****************************************************************************",
+            "",
+            "//*****************************************************************************",
+            "// Global Variable Declarations",
+            "//*****************************************************************************",
+            "",
+            "//*****************************************************************************",
+            "// Library Imports",
+            "//*****************************************************************************",
+            "",
+            "//*****************************************************************************",
+            "// Global Variable Initializations",
+            "//*****************************************************************************",
+            "",
+            "//*****************************************************************************",
+            "// Function and Subroutine definitions",
+            "//*****************************************************************************",
+            "",
+            "//*****************************************************************************",
+            "// Handler definitions",
+            "//*****************************************************************************",
+            "",
+            "//*****************************************************************************",
+            "// Handler initializations",
+            "//*****************************************************************************",
+            "",
+            "//*****************************************************************************",
+            "// Equivalent to main() in C",
+            "//*****************************************************************************",
+            "",
+            "",
+            "//-----------------------------------------------------------------------------",
+            "// Wait for a synchronous event.",
+            "// An application can have multiple <WaitEvent> statements",
+            "//-----------------------------------------------------------------------------",
+            "//waitevent  //PURPOSELY COMMENTED OUT"
+        ],
+        "Description": "Populates a new file template"
+    },
+    "If": {
+        "prefix": "if",
+        "body": [
+            "if ${1:condition} then",
+            "    //TODO: Implement if",
+            "endif"
+        ],
+        "Description": "Creates a basic if statement"
+    },
+    "IfElse": {
+        "prefix": "ifElse",
+        "body": [
+            "if ${1:condition} then",
+            "    //TODO: Implement if",
+            "else",
+            "    //TODO: Implement else",
+            "endif"
+        ],
+        "Description": "Creates a if/else statement"
+    },
+    "IfElseIf": {
+        "prefix": "ifElseIf",
+        "body": [
+            "if ${1:condition} then",
+            "    //TODO: Implement if",
+            "elseif ${2:condition} then",
+            "    //TODO: Implement elseif",
+            "endif"
+        ],
+        "Description": "Creates a if/elseif statement"
+    },
+    "Select": {
+        "prefix": "select",
+        "body": [
+            "select ${1:key}",
+            "case ${2:first_case}",
+            "    //TODO: Implement case",
+            "case else",
+            "    //TODO: Implement default case",
+            "endselect"
+        ],
+        "Description": "Creates select switch statement"
+    },
+    "Function": {
+        "prefix": "function",
+        "body": [
+            "function ${1:name}(${2:args})",
+            "    //TODO: Implement ${1:name}()",
+            "endfunc ${3: return_val}"
+        ],
+        "Description": "Creates a new function"
+    },
+    "Subroutine": {
+        "prefix": "sub",
+        "body": [
+            "sub ${1:name}(${2:args})",
+            "    //TODO: Implement ${1:name}()",
+            "endsub"
+        ],
+        "Description": "Creates a new subroutine"
+    },
+    "AssertRC": {
+        "prefix": "assertRC",
+        "body": [
+            "AssertRC(rc, __LINE_NUMBER__)"
+        ],
+        "Description": "Adds an AssertRC subroutine call"
+    },
+    "While": {
+        "prefix": "while",
+        "body": [
+            "while ${1:condition}",
+            "    //TODO: Implement while loop",
+            "endwhile"
+        ],
+        "Description": "Creates a basic while loop"
+    },
+    "For": {
+        "prefix": "for",
+        "body": [
+            "dim i",
+            "for i=${1:start} to ${2:end}",
+            "    //TODO: Implement for loop",
+            "next"
+        ],
+        "Description": "Creates a basic for loop"
+    },
+    "ForStep": {
+        "prefix": "forStep",
+        "body": [
+            "dim i",
+            "for i=${1:start} to ${2:end} step ${3:step}",
+            "    //TODO: Implement for loop",
+            "next"
+        ],
+        "Description": "Creates a for loop with custom step size"
+    },
+    "ForDownTo": {
+        "prefix": "forDownto",
+        "body": [
+            "dim i",
+            "for i=${1:start} downto ${2:end}",
+            "    //TODO: Implement for loop",
+            "next"
+        ],
+        "Description": "Creates a for loop that counts down"
+    },
+    "ForDownToStep": {
+        "prefix": "forDowntoStep",
+        "body": [
+            "dim i",
+            "for i=${1:start} downto ${2:end} step ${3:step}",
+            "    //TODO: Implement for loop",
+            "next"
+        ],
+        "Description": "Creates a for loop that counts down with custom step size"
+    },
+    "OnEvent": {
+        "prefix": "onevent",
+        "body": [
+            "onevent ${1:event} call ${2:function}"
+        ],
+        "Description": "Creates the onevent call"
+    }
+}
