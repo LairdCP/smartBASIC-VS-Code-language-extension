@@ -27,8 +27,8 @@
     ],
     "folding": {
 		"markers": {
-			"start": "^\\s*(function|sub|select|for|if|while)\\b",
-			"end": "^\\s*(endfunc|endsub|endselect|next|endif|endwhile)\\b"
+			"start": "^\\s*(?i)(function|sub|select|for|if|while)\\b",
+			"end": "^\\s*(?i)(endfunc|endsub|endselect|next|endif|endwhile)\\b"
 		}
 	}
 }
