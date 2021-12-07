@@ -21,11 +21,9 @@
             "scopeName": "source.smartbasic",
             "path": "./syntaxes/smartbasic.tmLanguage.json"
         }],
-        "snippets": [
-            {
-                "language": "smartbasic",
-                "path": "./snippets/snippets.json"
-            }
-        ]
+        "snippets": [{
+            "language": "smartbasic",
+            "path": "./snippets/snippets.json"
+        }]
     }
 }
