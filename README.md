@@ -53,4 +53,4 @@ This extension is not yet available through the extension manager.
 
 ## License
 
-This package is licensed under the MIT License.
+This package is licensed under the [MIT License](LICENSE.md).
