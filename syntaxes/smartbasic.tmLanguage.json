@@ -53,7 +53,7 @@
 		"preprocessor": {
 			"patterns": [
 				{
-					"match": "(?i)^\\s*(#)\\s*\\b(define|include|set|cmpif|if)\\b",
+					"match": "(?i)^\\s*(#)\\s*\\b(define|include|set|cmpif|cmpifand|if)\\b",
 					"name": "keyword.other.preprocessor.smartbasic"
 				}
 			]
